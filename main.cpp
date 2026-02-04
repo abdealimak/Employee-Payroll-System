@@ -18,7 +18,7 @@ protected:
 
 public:
     Employee() {
-        basicSalary = 0;   // default initialization
+        basicSalary = 0;
     }
 
     virtual void input() {
@@ -100,7 +100,7 @@ public:
         cout << "Enter Employee Name: ";
         getline(cin, name);
 
-        basicSalary = 0;   // explicitly initialized
+        basicSalary = 0;
 
         cout << "Enter Hours Worked: ";
         cin >> hoursWorked;
@@ -152,7 +152,7 @@ public:
         cout << "Enter Employee Name: ";
         getline(cin, name);
 
-        basicSalary = 0;   // explicitly initialized
+        basicSalary = 0;
 
         cout << "Enter Contract Amount: ";
         cin >> contractAmount;
